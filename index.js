@@ -9,7 +9,7 @@ function( request, response ){
  
 // Create a SUPER SIMPLE response.
 response.writeHead( 200, {"content-type": "text/plain"} );
-response.write( "Hellow world from AWS!\n" );
+response.write( "Meerkat server 1.0\n" );
 response.end();
  
  
